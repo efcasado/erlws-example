@@ -1,0 +1,10 @@
+{application,wsexample,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,sasl,compiler,syntax_tools,crypto,
+                             lager,ranch,cowboy]},
+              {mod,{wsexample_app,[]}},
+              {env,[]},
+              {modules,[wsexample_app,wsexample_metrics_publisher,
+                        wsexample_ws_handler]}]}.
